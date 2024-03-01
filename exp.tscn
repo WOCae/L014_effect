@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkvb1f5psunko"]
+
+[ext_resource type="Texture2D" uid="uid://g8ufobrdcb4j" path="res://exp_64x64px.png.png" id="1_4hwxv"]
+[ext_resource type="Script" path="res://exp.gd" id="2_34ek7"]
+
+[node name="exp" type="Sprite2D"]
+texture = ExtResource("1_4hwxv")
+hframes = 5
+vframes = 7
+frame = 34
+script = ExtResource("2_34ek7")
