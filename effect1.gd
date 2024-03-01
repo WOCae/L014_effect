@@ -6,7 +6,7 @@ const ExpObj = preload("res://exp.tscn")
 func _ready() -> void:
 	position = Vector2(100, 100)
 	scale =  Vector2(5,5)	#サイズ
-
+	$AudioStreamPlayer2D.volume_db = 10.0206
 	
 func _on_input_event(viewport, event, shape_idx):
 	if event is InputEventMouseButton:
@@ -20,3 +20,8 @@ func _on_input_event(viewport, event, shape_idx):
 
 			#削除
 			#queue_free()
+		
+			$AudioStreamPlayer2D.play()
+			#await $AudioStreamPlayer2D.finished
+			#await get_tree().create_timer(1.5).timeout
+	
