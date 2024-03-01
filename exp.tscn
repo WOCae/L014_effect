@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://bkvb1f5psunko"]
 
-[ext_resource type="Texture2D" uid="uid://g8ufobrdcb4j" path="res://exp_64x64px.png.png" id="1_4hwxv"]
+[ext_resource type="Texture2D" uid="uid://c6rm8ivjofer1" path="res://exp_64x64px.png" id="1_jaonp"]
 [ext_resource type="Script" path="res://exp.gd" id="2_34ek7"]
 
 [node name="exp" type="Sprite2D"]
-texture = ExtResource("1_4hwxv")
+texture = ExtResource("1_jaonp")
 hframes = 5
 vframes = 7
-frame = 34
+frame = 33
 script = ExtResource("2_34ek7")
