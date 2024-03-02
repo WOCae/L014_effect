@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c4eqbbt5d8ugd"]
 
 [ext_resource type="Script" path="res://effect1.gd" id="1_nqx8m"]
-[ext_resource type="AudioStream" path="res://Explosion4.wav" id="2_5nfxj"]
+[ext_resource type="AudioStream" uid="uid://bcuw6714lkgww" path="res://Explosion4.wav" id="2_5nfxj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cgsvs"]
 
